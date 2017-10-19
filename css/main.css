@@ -1,0 +1,69 @@
+body {
+  background: rgb(140, 178, 124);
+  }
+
+/* Armando el perímetro blanco de la cancha*/
+div {
+  border: 5px solid white;
+  padding: 46vh 1vh;
+  position: relative;  
+}
+
+/*Arco izquierdo*/
+.bow-left {
+  border-bottom: 5px solid white;  
+  border-right: 5px solid white;  
+  border-top: 5px solid white;
+  bottom: 150px;
+  left: 0;  
+  padding: 100px 60px;
+  position: absolute;  
+  top: 150px;
+}
+
+/*Arco derecho*/
+.bow-rigth {
+  border-bottom: 5px solid white;  
+  border-left: 5px solid white;  
+  border-top: 5px solid white;
+  bottom: 150px;  
+  padding: 100px 60px;
+  position: absolute;
+  right: 0;
+  top: 150px;  
+}
+
+/*Círculo*/
+.circle {  
+  border: 5px solid white;
+  border-radius: 50%;
+  height: 280px; 
+  left: 50%;
+  margin-left: -140px;
+  margin-top: -140px;  
+  position: absolute;
+  top: 50%;
+  width: 280px;  
+}
+
+/*Pelotas*/
+.icon-volleyball2 {
+  color: white;
+  font-size: 30px;  
+  position: absolute;  
+}
+
+.ball1 {
+  left: 8%;
+  top: 28%;
+}
+
+.ball2 {
+  right: 45%;
+  top: 10%;
+}
+
+.ball3 {
+  right: 10%;
+  top: 65%;
+}
